@@ -3,16 +3,17 @@
     align-items: center;
     justify-content: center;
     min-width: 100px;
-    padding: 9px 16px;
+    padding: 8px 16px;
     border-radius: 4px;
     font-size: 1.6rem;
     font-weight: 700;
+    font-family: 'ProximaNova', sans-serif;
     cursor: pointer;
     background-color: var(--white);
     border: 1px solid transparent;
 
     + .wrapper {
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     // Disabled
@@ -25,11 +26,12 @@
 
 .icon + .title,
 .title + .icon {
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .icon {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     width: 24px;
     text-align: center;
     font-size: 1.6rem;

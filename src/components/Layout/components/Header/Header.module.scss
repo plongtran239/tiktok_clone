@@ -80,6 +80,9 @@
 }
 
 .search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: var(--search-button-width);
     height: 100%;
     border-top-right-radius: var(--search-border-radius);
@@ -104,12 +107,14 @@
 }
 
 .upload {
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.6rem;
 }
 
 .action-btn {
+    min-height: 38px;
+    display: flex;
+    align-items: center;
     background-color: transparent;
     font-size: 2.2rem;
     color: var(--text-color);
@@ -119,7 +124,7 @@
 }
 
 .user-avatar {
-    margin-left: 32px;
+    margin-left: 20px;
     cursor: pointer;
     width: 32px;
     height: 32px;
