@@ -97,9 +97,34 @@
     }
 }
 
+// Actions
+.actions {
+    display: flex;
+    align-items: center;
+}
+
 .upload {
     font-style: normal;
     font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.action-btn {
+    background-color: transparent;
+    font-size: 2.2rem;
+    color: var(--text-color);
+    padding: 3px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.user-avatar {
+    margin-left: 32px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .more-btn {
