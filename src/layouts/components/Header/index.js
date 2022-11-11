@@ -13,7 +13,7 @@ import { faCircleQuestion, faKeyboard, faMoon, faUser } from '@fortawesome/free-
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
 
-import routesConfig from '~/config/routes';
+import config from '~/config';
 import Button from '~/components/Button';
 import styles from './Header.module.scss';
 import images from '~/assets/images';
@@ -105,7 +105,7 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <Link className={cx('logo-link')} to={routesConfig.home}>
+                <Link className={cx('logo-link')} to={config.routes.home}>
                     <img src={images.logo} alt="Tiktok" />
                 </Link>
 
