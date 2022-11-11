@@ -1,0 +1,78 @@
+.wrapper {
+    position: relative;
+    padding: 16px 0;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 8px;
+        right: 8px;
+        top: 0;
+        height: 1px;
+        background: rgba(22, 24, 35, 0.12);
+        transform: scaleY(0.5);
+    }
+}
+
+.label {
+    margin-bottom: 8px;
+    padding: 0 8px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: rgba(22, 24, 35, 0.75);
+}
+
+.account-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.item-info {
+    flex: 1;
+    margin-left: 12px;
+    color: var(--text-color);
+}
+
+.nickname {
+    font-size: 1.6rem;
+}
+
+.check {
+    font-size: 1.4rem;
+    color: #20d5ec;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.more-btn {
+    color: var(--primary);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 8px;
+    padding: 0 8px;
+    cursor: pointer;
+}
