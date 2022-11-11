@@ -1,4 +1,5 @@
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faEllipsisVertical,
@@ -12,6 +13,7 @@ import { faCircleQuestion, faKeyboard, faMoon, faUser } from '@fortawesome/free-
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
 
+import routesConfig from '~/config/routes';
 import Button from '~/components/Button';
 import styles from './Header.module.scss';
 import images from '~/assets/images';
@@ -103,9 +105,10 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <img src={images.logo} alt="Tiktok" />
+                <Link className={cx('logo-link')} to={routesConfig.home}>
+                    <img src={images.logo} alt="Tiktok" />
+                </Link>
 
-                {/* Search */}
                 <Search />
 
                 <div className={cx('actions')}>
