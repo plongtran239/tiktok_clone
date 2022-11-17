@@ -26,7 +26,7 @@ function AccountItem() {
             <div className={cx('account-item')}>
                 <img
                     className={cx('avatar')}
-                    src="https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/65d3c6b1d1e205c75536ccf1f26d552d~c5_100x100.jpeg?x-expires=1668567600&x-signature=QCp%2FkjozlDC0%2FYhDpjwh06ZkfNQ%3D"
+                    src="https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/65d3c6b1d1e205c75536ccf1f26d552d~c5_100x100.jpeg?x-expires=1668823200&x-signature=n%2B4IlxKct69LrLZcwTeXf2VPHJw%3D"
                     alt=""
                 />
                 <div className={cx('item-info')}>
