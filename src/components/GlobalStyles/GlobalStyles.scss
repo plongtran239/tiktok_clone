@@ -41,7 +41,7 @@ html *::-webkit-scrollbar {
 
 html *::-webkit-scrollbar-thumb {
     border-radius: 4px;
-    background-color: rgba(22, 24, 35, 0.06);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 html *::-webkit-scrollbar-track {
@@ -61,11 +61,11 @@ a {
     text-decoration: none;
 }
 
-// Fonts embedded
+// Fonts emmbeded
 @font-face {
     font-family: ProximaNova;
-    src: url('/assets/fonts/Proxima-Nova-Bold.woff');
-    font-weight: 700;
+    src: url('/assets/fonts/Proxima-Nova-Regular.woff2');
+    font-weight: 400;
 }
 
 @font-face {
@@ -76,32 +76,14 @@ a {
 
 @font-face {
     font-family: ProximaNova;
-    src: url('/assets/fonts/Proxima-Nova-Regular.woff2');
-    font-weight: 400;
+    src: url('/assets/fonts/Proxima-Nova-Bold.woff');
+    font-weight: 700;
 }
 
 @font-face {
     font-family: SofiaPro;
     src: url('/assets/fonts/sofiapro-bold.woff');
     font-weight: 700;
-}
-
-@font-face {
-    font-family: SofiaPro;
-    src: url('/assets/fonts/sofiapro-semibold.otf');
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: SofiaPro;
-    src: url('/assets/fonts/sofiapro-medium.woff');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: SofiaPro;
-    src: url('/assets/fonts/sofiapro-regular.woff');
-    font-weight: 400;
 }
 
 // Custom tippy tooltip
